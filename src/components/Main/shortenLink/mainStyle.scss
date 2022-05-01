@@ -1,0 +1,82 @@
+$myButtonColor: hsl(180, 66%, 49%);
+$myGrayFontColor: hsl(0, 0%, 47%);
+$myBgColor: hsl(257, 27%, 26%);
+$myErrorColor: hsl(0, 87%, 67%);
+
+.shorten-bar {
+  position: relative;
+  top: -5rem;
+  .shorten-bar-main-1 {
+    height: 10rem;
+    background-color: $myBgColor;
+    background-size: cover;
+    border-radius: 10px;
+    background-image: url("./bg-shorten-desktop.svg");
+    background-size: cover;
+    .shorten-bar-main {
+      height: 3.5rem;
+    }
+    .main-input {
+      .input-input {
+        background-color: white;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        padding: 0 30px 0 30px;
+      }
+      .error {
+        color: $myErrorColor;
+        margin-top: 10px;
+        font-weight: 700;
+      }
+      .input-error::placeholder {
+        color: $myErrorColor;
+        font-weight: 700;
+      }
+      .input-error {
+        border: solid 4px $myErrorColor !important;
+      }
+    }
+    .main-button {
+      Button {
+        border-radius: 10px;
+        background-color: $myButtonColor;
+        font-size: 15px;
+        font-weight: 700;
+      }
+    }
+  }
+  .shorten-link-list {
+    .list-ul {
+      list-style-type: none;
+      padding: 0 !important;
+      .ul-li {
+        background-color: white;
+        border-radius: 10px;
+        height: 4.5rem;
+        .li-link {
+          p {
+            margin: 0 !important;
+            font-weight: 700;
+          }
+        }
+        .link-shorten {
+          p {
+            margin: 0 !important;
+            align-self: center;
+            font-weight: 700;
+            color: $myButtonColor;
+          }
+          .shorten-copy {
+            background-color: $myButtonColor;
+            font-weight: 700;
+            color: white;
+          }
+          .copied {
+            background-color: $myBgColor !important;
+          }
+        }
+      }
+    }
+  }
+}

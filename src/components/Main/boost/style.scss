@@ -1,0 +1,27 @@
+$myButtonColor: hsl(180, 66%, 49%);
+$myGrayFontColor: hsl(0, 0%, 47%);
+$myBgColor: hsl(257, 27%, 26%);
+
+.boost {
+  min-height: 20rem;
+  background-color: $myBgColor !important;
+  padding: 4rem;
+  background-image: url("./bg-boost-desktop.svg");
+  background-size: cover;
+  .boost-inside {
+    .inside-text {
+      .text-h {
+        color: white;
+        font-weight: 700;
+      }
+    }
+    button {
+      height: 3rem;
+      width: 10rem;
+      background-color: $myButtonColor;
+      color: white;
+      font-weight: 700;
+      border-radius: 100px;
+    }
+  }
+}

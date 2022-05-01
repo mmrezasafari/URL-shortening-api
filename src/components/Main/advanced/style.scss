@@ -1,0 +1,66 @@
+$myButtonColor: hsl(180, 66%, 49%);
+$myGrayFontColor: hsl(0, 0%, 47%);
+$myBgColor: hsl(257, 27%, 26%);
+$myErrorColor: hsl(0, 87%, 67%);
+
+.advanced {
+  margin-bottom: 10rem;
+    .advanced-header {
+      .header-text {
+        .text-h {
+          font-weight: 700;
+          font-size: 50px;
+        }
+        .text-p {
+          font-weight: 700;
+          font-size: 20px;
+          color: $myGrayFontColor;
+        }
+      }
+    }
+    .advance-card {
+      margin: 6rem 0 6rem 0;
+      .card-main {
+        position: relative;
+        width: 30%;
+        min-height: 15rem;
+        border-radius: 10px;
+        background-color: white;
+        .card-logo {
+          position: relative;
+          width: 5rem;
+          height: 5rem;
+          border-radius: 50%;
+          background-color: $myBgColor;
+          top: -2.5rem;
+          left: 2.5rem;
+        }
+        .card-text {
+          padding: 0px 30px 20px 30px;
+          .text-h {
+            font-size: 25px;
+            font-weight: 700;
+            margin-bottom: 15px;
+          }
+          .text-p {
+            color: $myGrayFontColor;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+    hr{
+      width: 3rem;
+      height: 0.5rem;
+      background-color: $myButtonColor;
+      opacity: 100;
+    }
+  }
+
+  .Brand{
+    top: -3rem;
+  }
+
+  .Fully{
+    bottom: -3rem;
+  }

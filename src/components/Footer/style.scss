@@ -1,0 +1,91 @@
+$myGrayFontColor: hsl(0, 0%, 47%);
+$myButtonColor: hsl(180, 66%, 49%);
+
+.footer-inside {
+    padding-bottom: 50px;
+  .footer-brand {
+    margin-top: 35px;
+    p {
+      color: white;
+      font-size: 40px;
+      font-weight: 700;
+    }
+  }
+  .footer-nav {
+    margin-top: 50px;
+    .nav-feature {
+      .feature-p{
+        color: white;
+        font-size: 20px;
+        font-weight: 700;
+      }
+      ul {
+          padding: 0 !important;
+      }
+      li {
+        color: white;
+        list-style-type: none;
+        margin-bottom: 5px;
+        color: $myGrayFontColor;
+        font-weight: 700;
+      }
+      li:hover{
+        color: $myButtonColor;
+        cursor: pointer;
+      }
+    }
+    .nav-resource {
+        .resource-p{
+            color: white;
+            font-size: 20px;
+            font-weight: 700;
+            
+          }
+      ul {
+        padding: 0 !important;
+
+      }
+      li {
+        color: white;
+        list-style-type: none;
+        margin-bottom: 5px;
+        color: $myGrayFontColor;
+        font-weight: 700;
+      }
+      li:hover{
+        color: $myButtonColor;
+        cursor: pointer;
+      }
+    }
+    .nav-company {
+      .company-p {
+        color: white;
+        font-size: 20px;
+        font-weight: 700;
+        top: 0;
+      }
+      ul {
+        padding: 0 !important;
+      }
+      li {
+        color: white;
+        list-style-type: none;
+        margin-bottom: 5px;
+        color: $myGrayFontColor;
+        font-weight: 700;
+      }
+      li:hover{
+        color: $myButtonColor;
+        cursor: pointer;
+      }
+    }
+  }
+  .footer-icons {
+    margin-top: 50px;
+    path:hover{
+      fill  : $myButtonColor;
+      cursor: pointer;
+    }
+
+  }
+}

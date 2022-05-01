@@ -1,0 +1,83 @@
+$myDarkGrayFontColor: hsl(0, 0%, 36%);
+$MyButtonColor: hsl(180, 66%, 49%);
+$myGrayFontColor : hsl(0, 0%, 47%);
+
+nav {
+  .header-links {
+    .name-p {
+      font-size: 35px;
+      font-weight: 700;
+      letter-spacing: -1px;
+    }
+    .ul-main {
+      margin-top: 0.5rem !important;
+      .ul-link {
+        text-decoration: none;
+        list-style-type: none;
+        margin: 0 10px 0 10px;
+
+        a {
+          text-decoration: none;
+          color: $myDarkGrayFontColor;
+          font-weight: 700;
+        }
+        a:hover{
+           color: black;
+        }
+      }
+    }
+  }
+
+  .header-buttons {
+    position: relative;
+    left: 0;
+    .login-Button {
+      font-weight: 700;
+      letter-spacing: -1px;
+      color: $myGrayFontColor;
+      border-radius: 100px;
+    }
+    .sign-up-button {
+      font-weight: 700;
+      height: 100%;
+      letter-spacing: -0.5px;
+      color: white;
+      background-color: $MyButtonColor;
+      border-radius: 100px;
+    }
+  }
+}
+
+.introduction {
+    overflow-x: hidden;
+  .introduction-text {
+      margin-left: 210px;
+    .text-header {
+      .header-text {
+        font-size: 80px;
+        font-weight: 700;
+        letter-spacing: -0.7px;
+      }
+    }
+    .text-main {
+      .main-text {
+          width: 33rem;
+        font-size: 20px;
+        font-weight: 700;
+        color: $myGrayFontColor;
+      }
+    }
+    .button{
+        background-color: $MyButtonColor;
+        width: 10rem;
+        height: 2.9rem;
+        border-radius: 100px;
+        font-weight: 700;
+        font-size: 14px;
+        word-spacing: -1.5px;
+    }
+  }
+  .introduction-image {
+    right: -80px;
+  }
+}
